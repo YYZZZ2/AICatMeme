@@ -123,10 +123,10 @@ def add_audio_to_video(video_file, audio_file, output_file):
 '''
 
 story = [
-    ["library", "同学，某某学院的某教室怎么走？", "得瑟"],
-    ["playground", "她老乡某某回家了，让她过来替上课的。", "得意"],
+    ["library", "同学，广播室放的什么音乐", "得瑟"],
+    ["playground", "广播室里放的到了时间又再见。", "得意"],
     ["classroom", "然后抬头看见了站在讲台上准备上课的老师——我。", "震惊"],
-    ["classroom", "打了一个电话之后默默的离开了教室……", "尴尬"]
+    ["classroom", "真好听……", "尴尬"]
 ]
 
 # 根据故事自动生成视频文件名
